@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\codec">
+      <UniqueIdentifier>{08fa74e6-1024-4bbf-9e24-b1d20a986729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{bbf6fbfe-4723-45fd-adc6-46f07b6ead19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sample">
+      <UniqueIdentifier>{adcba84a-6e49-4f27-ab78-7ed0a51baf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\codec">
+      <UniqueIdentifier>{07de8034-d608-4b79-8d7b-bb88e9905a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{5eb3fa58-a79e-4a9d-a92a-12fbec6a5e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sample">
+      <UniqueIdentifier>{4136704f-b2c1-44a7-89ab-cfb4a1464a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\opengl">
+      <UniqueIdentifier>{d0db27b0-c077-4dac-a87e-abf645515003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\opengl">
+      <UniqueIdentifier>{53910587-9db9-495a-b3f6-d316cfb5420f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wasapi">
+      <UniqueIdentifier>{c364587c-4211-482c-a58e-74f33b0e5ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\wasapi">
+      <UniqueIdentifier>{fe45314b-8a19-4dff-a93d-3a0db254275f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mmcaptureropengl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mmcaptureropenglDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\codec_utils.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffmpeg_decoder.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffmpeg_transcoder.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_lockfree_queue.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_logger.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_msg_queue.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_utf8.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_utils.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_audiobox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_audiodevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_enum_mediatypes.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_enum_pins.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_filter.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_media_rawdata.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_mediabox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_mediadevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_pin.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_utils.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_videobox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_videodevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl_utils.h">
+      <Filter>头文件\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasapi_capturer.h">
+      <Filter>头文件\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasapi_device.h">
+      <Filter>头文件\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasapi_notify.h">
+      <Filter>头文件\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasapi_render.h">
+      <Filter>头文件\wasapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wasapi_utils.h">
+      <Filter>头文件\wasapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mmcaptureropengl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mmcaptureropenglDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\codec_utils.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ffmpeg_decoder.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ffmpeg_transcoder.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_lockfree_queue.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_logger.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_msg_queue.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_utf8.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_utils.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_audiobox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_audiodevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_enum_mediatypes.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_enum_pins.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_filter.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_media_rawdata.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_mediabox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_mediadevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_pin.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_utils.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_videobox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_videodevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl_utils.cpp">
+      <Filter>源文件\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasapi_capturer.cpp">
+      <Filter>源文件\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasapi_device.cpp">
+      <Filter>源文件\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasapi_notify.cpp">
+      <Filter>源文件\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasapi_render.cpp">
+      <Filter>源文件\wasapi</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wasapi_utils.cpp">
+      <Filter>源文件\wasapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mmcaptureropengl.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\mmcaptureropengl.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mmcaptureropengl.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
