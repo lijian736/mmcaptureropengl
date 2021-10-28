@@ -18,4 +18,4 @@ UI使用MFC进行绘制。
 mmcaptureropengl/library/ffmpeg-4.4-full_build-shared  
 
 软件截图:
-![Image text](https://gitee.com/videoaudioer/mmcapturer/raw/master/screenshot/screenshot.png)
+![Image text](https://gitee.com/videoaudioer/mmcaptureropengl/raw/master/screenshot/winshot.png)
