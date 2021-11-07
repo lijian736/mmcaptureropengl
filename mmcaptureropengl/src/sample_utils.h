@@ -10,7 +10,6 @@
 #include <strmif.h>
 #include <dshow.h>
 #include <dvdmedia.h>
-#include <gdiplus.h>
 
 enum class VideoFormat
 {
