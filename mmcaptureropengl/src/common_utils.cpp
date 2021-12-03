@@ -72,25 +72,25 @@ bool string_ends_with(const std::string& str, const std::string& substr)
 void string_trim_end(std::string& str)
 {
 	str.erase(std::find_if(str.rbegin(), str.rend(), [](int ch) {
-		return !std::isspace(ch);
+		return !(ch == ' ' || ch == '\r' || ch == '\n' || ch == '\t');
 	}).base(), str.end());
 }
 
 void string_trim_start(std::string& str)
 {
 	str.erase(str.begin(), std::find_if(str.begin(), str.end(), [](int ch) {
-		return !std::isspace(ch);
+		return !(ch == ' ' || ch == '\r' || ch == '\n' || ch == '\t');
 	}));
 }
 
 void string_trim(std::string& str)
 {
 	str.erase(std::find_if(str.rbegin(), str.rend(), [](int ch) {
-		return !std::isspace(ch);
+		return !(ch == ' ' || ch == '\r' || ch == '\n' || ch == '\t');
 	}).base(), str.end());
 
 	str.erase(str.begin(), std::find_if(str.begin(), str.end(), [](int ch) {
-		return !std::isspace(ch);
+		return !(ch == ' ' || ch == '\r' || ch == '\n' || ch == '\t');
 	}));
 }
 
